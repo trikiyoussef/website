@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Preservation Culturel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">
+            <h1>Preservation Culturel</h1>
+        </div>
+        <div class="search-container">
+            <form action="/search" method="GET" class="search-form">
+                <input type="text" name="query" placeholder="Rechercher sur le site..." class="search-input">
+                <button type="submit" class="search-button">Rechercher</button>
+            </form>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="about.html">About</a>
+                    <ul class="dropdown">
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="history.html">Our History</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="products.html">Products</a>
+                    <ul class="dropdown">
+                        <li><a href="livres.html">Livres</a></li>
+                        <li><a href="guide.html">Guide Historiques</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <div class="contact-page">
+        <section class="contact-info">
+            <h2>Contactez-Nous</h2>
+            <p>Vous avez des questions ou souhaitez en savoir plus ? Contactez-nous !</p>
+
+            <h3>Email</h3>
+            <p>Envoyez-nous un email à <a href="mailto:contact@preservationculturel.com">contact@preservationculturel.com</a></p>
+
+            <h3>À propos de nous</h3>
+            <p>Nous sommes dédiés à la préservation du patrimoine culturel et historique. Notre équipe passionnée œuvre pour protéger et valoriser les trésors du passé.</p>
+        </section>
+
+        
+        <section class="map-container">
+            <h3>Notre Localisation</h3>
+            
+        </section>
+
+        
+
+        
+        <section class="contact-form">
+            <h3>Envoyez-nous un Message</h3>
+            <form action="/submit-form" method="POST">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="submit-button">Envoyer</button>
+            </form>
+        </section>
+    </div>
+
+   
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Preservation Culturel. Tous droits réservés.</p>
+            <ul class="footer-links">
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://x.com">X.com</a></li>
+                <li><a href="https://threads.com">Threads</a></li>
+                <li><a href="https://youtube.com">YouTube</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    
+
+</body>
+</html>
